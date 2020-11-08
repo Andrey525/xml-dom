@@ -1,0 +1,74 @@
+.title {
+    font-size: 32px;
+    text-align: center;
+}
+
+form {
+    background-color: lightgoldenrodyellow;
+    height: 550px;
+    width: 700px;
+    border: 5px double silver;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#fakultet {
+    width: 50px;
+}
+
+#kurs {
+    width: 30px;
+}
+
+#gruppa {
+    width: 70px;
+}
+
+#student {
+    width: 150px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+}
+
+.item {
+    padding-right: 30px;
+}
+
+table {
+    border: 4px ridge silver;
+    margin: auto;
+}
+
+td {
+    border: 2px ridge silver;
+}
+
+input[type="radio"]:hover {
+    cursor: pointer;
+}
+
+.button1 {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 200px;
+    height: 30px;
+}
+
+.button1:hover {
+    cursor: pointer;
+}
+
+.button2:hover {
+    cursor: pointer;
+}
+
+.button2 {
+    position: relative;
+    margin-left: 100px;
+    width: 200px;
+    height: 30px;
+}
