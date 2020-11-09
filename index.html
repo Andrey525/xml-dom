@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
     <title>Лабораторная 3.3</title>
 </head>
 
-<body>
+<body onLoad="LoadDoc()">
     <form>
         <p class="title">Успеваемость</p>
         <ul class="list">
@@ -45,49 +46,49 @@
         <table id="marktable">
             <tr>
                 <td width=340 align=center>Предмет</td>
+                <td width=20 align=center>0</td>
                 <td width=20 align=center>1</td>
                 <td width=20 align=center>2</td>
-                <td width=20 align=center>3</td>
             </tr>
             <tr>
                 <td></td>
-                <td><input type="radio" name="m1" value="0"></td>
+                <td><input type="radio" id="m1" value="0"></td>
                 <td><input type="radio" id="m1" value="1"></td>
                 <td><input type="radio" id="m1" value=2></td>
             </tr>
             <tr>
                 <td></td>
-                <td><input type="radio" name="m2" value="0"></td>
+                <td><input type="radio" id="m2" value="0"></td>
                 <td><input type="radio" id="m2" value="1"></td>
                 <td><input type="radio" id="m2" value=2></td>
             </tr>
             <tr>
                 <td></td>
-                <td><input type="radio" name="m3" value="0"></td>
+                <td><input type="radio" id="m3" value="0"></td>
                 <td><input type="radio" id="m3" value="1"></td>
                 <td><input type="radio" id="m3" value=2></td>
             </tr>
             <tr>
                 <td></td>
-                <td><input type="radio" name="m4" value="0"></td>
+                <td><input type="radio" id="m4" value="0"></td>
                 <td><input type="radio" id="m4" value="1"></td>
                 <td><input type="radio" id="m4" value=2></td>
             </tr>
             <tr>
                 <td></td>
-                <td><input type="radio" name="m5" value="0"></td>
+                <td><input type="radio" id="m5" value="0"></td>
                 <td><input type="radio" id="m5" value="1"></td>
                 <td><input type="radio" id="m5" value=2></td>
             </tr>
             <tr>
                 <td></td>
-                <td><input type="radio" name="m6" value="0"></td>
+                <td><input type="radio" id="m6" value="0"></td>
                 <td><input type="radio" id="m6" value="1"></td>
                 <td><input type="radio" id="m6" value=2></td>
             </tr>
             <tr>
                 <td></td>
-                <td><input type="radio" name="m7" value="0"></td>
+                <td><input type="radio" id="m7" value="0"></td>
                 <td><input type="radio" id="m7" value="1"></td>
                 <td><input type="radio" id="m7" value=2></td>
             </tr>
@@ -95,6 +96,7 @@
         <input class="button1" type="button" value="Посчитать средний балл">
         <input class="button2" type="button" value="Сбросить данные">
     </form>
+
 </body>
 
 </html>
