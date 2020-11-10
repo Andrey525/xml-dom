@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
  <data>
-    <fakultet name="ИВТ">
-        <kurs value="1">
-            <gruppa name="ИВ-021">
-                <stud name="Иванов И.И.">
+    <faculty name="ИВТ">
+        <course value="1">
+            <group name="ИВ-021">
+                <student name="Иванов И.И.">
                     <mark name="m1">2</mark>
                     <mark name="m2">1</mark>
                     <mark name="m3">2</mark>
@@ -11,8 +11,8 @@
                     <mark name="m5">1</mark>
                     <mark name="m6">1</mark>
                     <mark name="m7">2</mark>
-                </stud>
-                <stud name="Петрова А.И.">
+                </student>
+                <student name="Петрова А.И.">
                     <mark name="m1">1</mark>
                     <mark name="m2">1</mark>
                     <mark name="m3">1</mark>
@@ -20,8 +20,8 @@
                     <mark name="m5">2</mark>
                     <mark name="m6">1</mark>
                     <mark name="m7">2</mark>
-                </stud>
-                <stud name="Сидоров А.Н.">
+                </student>
+                <student name="Сидоров А.Н.">
                     <mark name="m1">0</mark>
                     <mark name="m2">1</mark>
                     <mark name="m3">1</mark>
@@ -29,21 +29,21 @@
                     <mark name="m5">2</mark>
                     <mark name="m6">2</mark>
                     <mark name="m7">1</mark>
-                </stud>
-                <predmeti>
-                    <predmet>Математика</predmet>
-                    <predmet>Русский язык и культура речи</predmet>
-                    <predmet>Программирование</predmet>
-                    <predmet>Физика</predmet>
-                    <predmet>Легкая атлетика</predmet>
-                    <predmet>Информатика</predmet>
-                    <predmet>Алгебра и геомтерия</predmet> 
-                </predmeti>
-            </gruppa>
-        </kurs>
-        <kurs value="2">
-            <gruppa name="ИВ-921">
-                <stud name="Архипов А.Н.">
+                </student>
+                <subjects>
+                    <subject>Математика</subject>
+                    <subject>Русский язык и культура речи</subject>
+                    <subject>Программирование</subject>
+                    <subject>Физика</subject>
+                    <subject>Легкая атлетика</subject>
+                    <subject>Информатика</subject>
+                    <subject>Алгебра и геомтерия</subject> 
+                </subjects>
+            </group>
+        </course>
+        <course value="2">
+            <group name="ИВ-921">
+                <student name="Архипов А.Н.">
                     <mark name="m1">0</mark>
                     <mark name="m2">1</mark>
                     <mark name="m3">1</mark>
@@ -51,8 +51,8 @@
                     <mark name="m5">1</mark>
                     <mark name="m6">1</mark>
                     <mark name="m7">0</mark>
-                </stud>
-                <stud name="Шишкина Е.И.">
+                </student>
+                <student name="Шишкина Е.И.">
                     <mark name="m1">1</mark>
                     <mark name="m2">2</mark>
                     <mark name="m3">1</mark>
@@ -60,8 +60,8 @@
                     <mark name="m5">2</mark>
                     <mark name="m6">1</mark>
                     <mark name="m7">2</mark>
-                </stud>
-                <stud name="Сибирцев А.Ф.">
+                </student>
+                <student name="Сибирцев А.Ф.">
                     <mark name="m1">0</mark>
                     <mark name="m2">1</mark>
                     <mark name="m3">0</mark>
@@ -69,19 +69,19 @@
                     <mark name="m5">0</mark>
                     <mark name="m6">1</mark>
                     <mark name="m7">1</mark>
-                </stud>
-                <predmeti>
-                    <predmet>Математика</predmet>
-                    <predmet>Объектно ориентированное программирование</predmet>
-                    <predmet>Электротехника, электроника, схемотехника</predmet>
-                    <predmet>Структуры и алгоритмы обработки данных</predmet>
-                    <predmet>Легкая атлетика</predmet>
-                    <predmet>Интернет технологии</predmet>
-                    <predmet>Математическая логика и теория алгоритмов</predmet> 
-                </predmeti>
-            </gruppa>
-            <gruppa name="ИВ-922">
-                <stud name="Морозова А.А.">
+                </student>
+                <subjects>
+                    <subject>Математика</subject>
+                    <subject>Объектно ориентированное программирование</subject>
+                    <subject>Электротехника, электроника, схемотехника</subject>
+                    <subject>Структуры и алгоритмы обработки данных</subject>
+                    <subject>Легкая атлетика</subject>
+                    <subject>Интернет технологии</subject>
+                    <subject>Математическая логика и теория алгоритмов</subject> 
+                </subjects>
+            </group>
+            <group name="ИВ-922">
+                <student name="Морозова А.А.">
                     <mark name="m1">2</mark>
                     <mark name="m2">1</mark>
                     <mark name="m3">1</mark>
@@ -89,8 +89,8 @@
                     <mark name="m5">1</mark>
                     <mark name="m6">2</mark>
                     <mark name="m7">1</mark>
-                </stud>
-                <stud name="Рожков П.В.">
+                </student>
+                <student name="Рожков П.В.">
                     <mark name="m1">1</mark>
                     <mark name="m2">0</mark>
                     <mark name="m3">1</mark>
@@ -98,8 +98,8 @@
                     <mark name="m5">2</mark>
                     <mark name="m6">1</mark>
                     <mark name="m7">0</mark>
-                </stud>
-                <stud name="Федорчук Г.Ф.">
+                </student>
+                <student name="Федорчук Г.Ф.">
                     <mark name="m1">2</mark>
                     <mark name="m2">1</mark>
                     <mark name="m3">2</mark>
@@ -107,23 +107,23 @@
                     <mark name="m5">1</mark>
                     <mark name="m6">2</mark>
                     <mark name="m7">1</mark>
-                </stud>
-                <predmeti>
-                    <predmet>Математика</predmet>
-                    <predmet>Объектно ориентированное программирование</predmet>
-                    <predmet>Электротехника, электроника, схемотехника</predmet>
-                    <predmet>Структуры и алгоритмы обработки данных</predmet>
-                    <predmet>Легкая атлетика</predmet>
-                    <predmet>Интернет технологии</predmet>
-                    <predmet>Математическая логика и теория алгоритмов</predmet> 
-                </predmeti>
-            </gruppa>
-        </kurs>
-        </fakultet>
-    <fakultet name="ГФ">
-        <kurs value="2">
-         <gruppa name="ГР-91">
-                <stud name="Дубравин Д.П.">
+                </student>
+                <subjects>
+                    <subject>Математика</subject>
+                    <subject>Объектно ориентированное программирование</subject>
+                    <subject>Электротехника, электроника, схемотехника</subject>
+                    <subject>Структуры и алгоритмы обработки данных</subject>
+                    <subject>Легкая атлетика</subject>
+                    <subject>Интернет технологии</subject>
+                    <subject>Математическая логика и теория алгоритмов</subject> 
+                </subjects>
+            </group>
+        </course>
+        </faculty>
+    <faculty name="ГФ">
+        <course value="2">
+         <group name="ГР-91">
+                <student name="Дубравин Д.П.">
                     <mark name="m1">1</mark>
                     <mark name="m2">0</mark>
                     <mark name="m3">1</mark>
@@ -131,8 +131,8 @@
                     <mark name="m5">1</mark>
                     <mark name="m6">1</mark>
                     <mark name="m7">0</mark>
-                </stud>
-                <stud name="Репченко И.А.">
+                </student>
+                <student name="Репченко И.А.">
                     <mark name="m1">2</mark>
                     <mark name="m2">1</mark>
                     <mark name="m3">1</mark>
@@ -140,17 +140,35 @@
                     <mark name="m5">0</mark>
                     <mark name="m6">2</mark>
                     <mark name="m7">2</mark>
-                </stud>
-                <predmeti>
-                    <predmet>Политология</predmet>
-                    <predmet>Право</predmet>
-                    <predmet>Русский язык</predmet>
-                    <predmet>Философия</predmet>
-                    <predmet>История</predmet>
-                    <predmet>Информатика</predmet>
-                    <predmet>Физическая культура</predmet> 
-                </predmeti>
-            </gruppa>
-        </kurs>
-    </fakultet>
+                </student>
+                <student name="Мороз П.В.">
+                    <mark name="m1">2</mark>
+                    <mark name="m2">1</mark>
+                    <mark name="m3">2</mark>
+                    <mark name="m4">2</mark>
+                    <mark name="m5">1</mark>
+                    <mark name="m6">2</mark>
+                    <mark name="m7">2</mark>
+                </student>
+                <student name="Гвоздь С.А.">
+                    <mark name="m1">1</mark>
+                    <mark name="m2">0</mark>
+                    <mark name="m3">1</mark>
+                    <mark name="m4">2</mark>
+                    <mark name="m5">0</mark>
+                    <mark name="m6">2</mark>
+                    <mark name="m7">1</mark>
+                </student>
+                <subjects>
+                    <subject>Политология</subject>
+                    <subject>Право</subject>
+                    <subject>Русский язык</subject>
+                    <subject>Философия</subject>
+                    <subject>История</subject>
+                    <subject>Информатика</subject>
+                    <subject>Физическая культура</subject> 
+                </subjects>
+            </group>
+        </course>
+    </faculty>
  </data>
